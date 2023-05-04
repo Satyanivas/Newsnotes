@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"  type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <style>
+    ::placeholder{
+color: darkred !important;
+font-family: Copperplate, Papyrus, fantasy;
+}
+  </style>
+</head>
+<body class="hi">
+    <div class="container">
+        <h2 style="text-align: center; margin-top:80px; font-weight: bold;color:white;font-family: Copperplate, Papyrus, fantasy;">NEWS WEBSITE...notedown news!</h2>
+    <div class="login-form">
+        
+        <div class="row">
+            <div class="col-md-6 loginclass"  >
+               <h2 style=" font-weight: bold;color: darkred;font-family: Copperplate, Papyrus, fantasy;">Login</h2>
+                <form action="dbconfig/login.php" method="post">
+                    <div class="form-group">
+                        <label for="">Email</label>
+                        <input type="email" placeholder="Email" name="email" id="" class="form-control"
+                        required>
+                    </div>
+                    <div class="form-group">
+                        <label for="">Password</label>
+                        <input  type="password"  placeholder="Password" name="password" id="" class="form-control"
+                        required >
+                    </div>
+                    <button name="login" style="font-family: Copperplate, Papyrus, fantasy;">Login</button>
+                    <p class="para">Don't have an account?
+                    <a href="register.html" style="color:#8b0000; " target="_self">Register</a>
+                    </p>
+                </form>
+            </div>
+        </div>
+    </div>
+    </div>
+    
+</body>
+</html>

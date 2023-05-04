@@ -1,0 +1,80 @@
+.hi{
+    background: linear-gradient(rgba(0,0,50,0.5),rgba(0,0,50,0.5)),url("img/newspaper.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position:initial;
+}
+
+.login-form{
+    max-width: 700px;
+    margin: 150px auto;
+    margin-left: 420px;
+    margin-top:100px;
+   
+   
+}
+.register-form{
+    max-width: 700px;
+    margin: 150px auto;
+    margin-left: 420px;
+    margin-top: 100px;
+   
+}
+.loginclass{
+    background: rgba(211,211,211,0.5);
+    padding: 30px;
+}
+.registerclass{
+    background: rgba(211,211,211,0.5);
+    padding: 30px;
+}
+.para{
+    font-family: Copperplate, Papyrus, fantasy;
+    font-size: 18px;
+    color: darkred;
+}
+
+/* h2{
+    font-weight: bold;
+    color: darkred;
+    font-family: Copperplate, Papyrus, fantasy;
+} */
+
+label{
+    font-weight: bold;
+    color:white;
+    font-family: Copperplate, Papyrus, fantasy;
+}
+
+button{
+    background-color: white;
+    color: darkred; 
+    border: 2px darkred;
+    border-radius: 6px;
+    font-family: Copperplate, Papyrus, fantasy;
+  }
+  
+button:hover {
+    background-color:darkred;
+    color: white;
+    font-family: Copperplate, Papyrus, fantasy;
+  }
+
+.form-control{
+    background: transparent !important;
+}
+
+/*::placeholder{
+color: darkred !important;
+}*/
+
+h3{
+    color: darkred;
+}
+a:hover {
+    color:white;
+    text-decoration: underline;
+}
+
+  

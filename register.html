@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"  type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <style>
+        ::placeholder{
+    color: darkred !important;
+    font-family: Copperplate, Papyrus, fantasy;
+    }
+      </style>
+</head>
+<body class="hi">
+    <div class="container">
+    <div class="register-form">
+        <div class="row">
+            <div class="col-md-6 registerclass">
+                <h2 style=" font-weight: bold;color: darkred;font-family: Copperplate, Papyrus, fantasy;">Register</h2>
+                <form action="dbconfig/register.php" method="POST">
+                    <div class="form-group">
+                        <label for="">Email</label>
+                        <input type="email" placeholder="Email" name="email" id="" class="form-control"
+                        required>
+                    </div>
+                    <div class="form-group">
+                        <label for="">Set Password</label><br>
+                        <input type="password" placeholder="Enter Password" name="password" id="" class="form-control"
+                        required>
+                    </div>
+                    <div class="form-group">
+                        <label for="">Re-enter Password</label><br>
+                        <input type="password" placeholder="Re-enter Password" name="cpassword" id="" class="form-control"
+                        required>
+                    </div>
+                    <button name="register" style="font-family: Copperplate, Papyrus, fantasy; ">Register</button>
+                    <p class="para">Already have an account?<a href="login.html"  style="color:#8b0000;font:bolder;" target="_self">Login</a></p>
+                </form>
+            </div>
+        </div>
+    </div>
+    </div>
+    
+</body>
+</html>
